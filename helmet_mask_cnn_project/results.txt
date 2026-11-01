@@ -1,0 +1,19 @@
+CNN HELMET/MASK CLASSIFIER RESULTS
+Test loss: 0.5309
+Test accuracy: 78.00%
+Class 0: with_helmet_mask
+Class 1: without_helmet_mask
+
+Classification report:
+                     precision    recall  f1-score   support
+
+   with_helmet_mask       0.82      0.72      0.77        25
+without_helmet_mask       0.75      0.84      0.79        25
+
+           accuracy                           0.78        50
+          macro avg       0.78      0.78      0.78        50
+       weighted avg       0.78      0.78      0.78        50
+
+Confusion matrix:
+[[18  7]
+ [ 4 21]]
